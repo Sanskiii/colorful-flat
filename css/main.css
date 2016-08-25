@@ -1,0 +1,499 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Telex', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  opacity: .7;
+}
+
+.clearfix {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 46px;
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+/* -----------HEADER--------------- */
+header {
+  background-color: #F1E449;
+  padding-bottom: 30px;
+}
+
+.navigation {
+  height: 150px;
+  padding: 3.5% 0;
+}
+
+.navigation img {
+  width: 45px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.navigation h2 {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+.navigation a {
+  color: #2a2a2a;
+  float: left;
+}
+
+.logo-highlight {
+  color: #BB3661;
+}
+
+.top-nav {
+  float: right;
+}
+
+.top-nav a {
+  color: #2a2a2a;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  border-bottom: 2.3px solid #2a2a2a;
+  padding-bottom: 30px;
+}
+
+header h1 {
+  float: left;
+  width: 50%;
+  margin-top: 150px;
+  font-size: 56px;
+  text-align: center;
+  font-family: 'Chelsea Market', sans-serif;
+  color: #2a2a2a;
+  line-height: 58px;
+}
+
+.github {
+  float: left;
+  width: 400px;
+  padding-top: 20px;
+  margin-left: 100px;
+  margin: 0 0 25px;
+}
+
+.circle-group {
+  clear: both;
+  text-align: center;
+}
+
+.circles {
+  margin: 10px;
+  padding: 0 8.5px;
+  border: 2.7px solid #2a2a2a;
+  border-radius: 50%;
+}
+
+.circles:hover {
+  background-color: #2a2a2a;
+  opacity: 10;
+}
+
+
+
+/* ----------- FEATURES -----------  */
+#features {
+  background-color: #EDF4F5;
+}
+
+.feat {
+  float: left;
+  width: 33.3%;
+  margin: 75px 0;
+  padding: 0 5%;
+  color: #2a2a2a;
+  line-height: 30px;
+}
+
+.feat img {
+  width: 70%;
+  height: 150px;
+  margin: 0 auto;
+}
+
+
+
+/* ------------ WORKS -------------- */
+#works {
+  clear: both;
+  background-color: #054950;
+  padding: 40px 0;
+  color: #EDF4F5;
+}
+
+#works h1 {
+  margin: 0;
+}
+
+#works p {
+  width: 65%;
+  margin: 0 auto 50px;
+  line-height: 25px;
+}
+
+.works-nav {
+  margin: 0 0 40px;
+}
+
+.works-nav a {
+  padding: 0 3%;
+  color: #EDF4F5;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+.works-nav a:hover {
+  border: 2px solid #EDF4F5;
+  border-radius: 10px;
+}
+
+.works-images img {
+  float: left;
+  height: 200px;
+  width: 23.3%;
+  margin: 0 5% 50px;
+}
+
+.works-images img:hover {
+  cursor: pointer;
+  opacity: .4;
+}
+
+#works button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  background-color: #EDF4F5;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  font-family: 'Telex', sans-serif;
+}
+
+#works button:hover {
+  background-color: #789A9F;
+}
+
+
+
+/* ----------- LAYOUTS ----------- */
+#layouts {
+  background-color: #EDF4F5;
+  color: #333;
+  text-align: left;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.top-layout {
+  border-bottom: 1px solid #333;
+  height: 400px;
+}
+
+.top-layout img,
+.bottom-layout img {
+  width: 300px;
+}
+
+.top-layout img {
+  float: left;
+  margin-right: 75px;
+}
+
+.top-layout h3,
+.bottom-layout h3 {
+  font-size: 26px;
+  font-size: bold;
+}
+
+.top-layout p,
+.bottom-layout p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.top-layout-button,
+.bottom-layout-button {
+  font-size: 22px;
+  font-family: 'Telex', sans-serif;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.top-layout-button {
+  background-color: #BB3661;
+}
+
+.bottom-layout {
+  margin-top: 65px;
+}
+
+.bottom-layout img {
+  float: right;
+  margin-left: 75px;
+}
+
+.bottom-layout-button {
+  background-color: #49CDF1;
+}
+
+
+
+/* ------------- TEAM -------------- */
+#team {
+  clear: both;
+  background-color: #A11E48;
+  color: white;
+  width: 100%;
+  padding-bottom: 75px;
+}
+
+#team h1 {
+  margin: 0;
+  padding-top: 50px;
+}
+
+#team p {
+  width: 65%;
+  margin: 0 auto 75px;
+  line-height: 25px;
+}
+
+.teammates {
+  float: left;
+  width: 23.3%;
+  margin: 0 5%;
+  color: #333;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+.teammates img {
+  width: 100%;
+  height: 250px;
+}
+
+.teammates h3 {
+  font-size: 26px;
+  margin: 15px 0 0;
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+.teammates h4 {
+  margin: 10px 0;
+}
+
+.teammates .fa {
+  color: white;
+  margin: 0 2px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-pinterest {
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  padding: 11px 15px;
+}
+
+.fa-twitter {
+  padding: 10.5px 10px;
+  background-color: #00ACED;
+}
+
+.fa-pinterest {
+  background-color: #CB2027;
+  padding: 11px 10px;
+}
+
+
+
+/* ------------ POSTS ------------ */
+#posts {
+  clear: both;
+  background-color: #EDF4F5;
+  color: #333;
+  width: 100%;
+}
+
+#posts h1 {
+  margin: 0;
+  padding-top: 50px;
+}
+
+.posts-paragraph {
+  width: 65%;
+  margin: 0 auto 75px;
+  line-height: 25px;
+}
+
+.post-box {
+  float: left;
+  width: 27%;
+  margin: 0 3%;
+  color: #333;
+  background-color: white;
+}
+
+.post-box img {
+  width: 100%;
+  height: 200px;
+}
+
+.post-box h3 {
+  font-size: 26px;
+  margin: 15px 0 0;
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+.post-box h4 {
+  margin: 10px 0;
+}
+
+.post-box p {
+  margin: 0 5px 15px;
+  line-height: 25px;
+  padding: 0 30px;
+}
+
+#posts button {
+  margin: 50px 0;
+  font-size: 22px;
+  font-family: 'Telex', sans-serif;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #BB3661;
+}
+
+
+
+/* ------------- CONTACT & FOOTER -------- */
+#contact,
+footer {
+  background-color: #3B3B3B;
+}
+
+#contact .wrapper {
+  color: white;
+  border-bottom: 2px solid #333;
+}
+
+#contact h1 {
+  margin: 0;
+  padding-top: 50px;
+}
+
+#contact p {
+  margin-bottom: 50px;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 25px auto;
+  width: 40%;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Telex', sans-serif;
+}
+
+#contact button {
+  margin: 10px 0 50px;
+  font-size: 22px;
+  font-family: 'Telex', sans-serif;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  color: #3C3C3C;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+footer {
+  color: #666666;
+  width: 100%;
+  padding: 50px 0
+}
+
+footer nav {
+  float: left;
+}
+
+footer p {
+  float: right;
+}
+
+footer i {
+  margin: 0 5px;
+}
+
+footer .fa {
+  color: white;
+  background-color: #999999;
+}
+
+.fa-snapchat-ghost {
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  padding: 13px;
+  border-radius: 50%;
+}
+
+footer a {
+  color: #F1E449;
+}
+
+footer a:hover {
+  color: white;
+}
