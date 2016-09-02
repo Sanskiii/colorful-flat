@@ -125,10 +125,6 @@ header h1 {
 
 
 /* ----------- FEATURES -----------  */
-#features {
-  background-color: #EDF4F5;
-}
-
 .feat {
   float: left;
   width: 33.3%;
@@ -354,7 +350,7 @@ header h1 {
 /* ------------ POSTS ------------ */
 #posts {
   clear: both;
-  background-color: #EDF4F5;
+  background-color: #fff;
   color: #333;
   width: 100%;
 }
@@ -400,6 +396,7 @@ header h1 {
 }
 
 #posts button {
+  clear: both;
   margin: 50px 0;
   font-size: 22px;
   font-family: 'Telex', sans-serif;
@@ -417,6 +414,10 @@ header h1 {
 #contact,
 footer {
   background-color: #3B3B3B;
+}
+
+#contact {
+  clear: both;
 }
 
 #contact .wrapper {
@@ -496,4 +497,108 @@ footer a {
 
 footer a:hover {
   color: white;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:1500px) {
+  .works-images img {
+    width: 40%;
+  }
+  .post-box {
+    float: none;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:1330px) {
+  .feat {
+    width: 60%;
+    margin: 0 auto;
+    float: none;
+  }
+  .feat img {
+    width: 250px;
+  }
+  .teammates {
+    width: 52%;
+    margin: 20px auto;
+    float: none;
+  }
+}
+
+@media (max-width:1079px) {
+  .github {
+    display: none;
+  }
+  header h1 {
+    float: none;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto 30px;
+  }
+  .navigation a,
+  .top-nav {
+    float: none;
+  }
+  .navigation {
+    margin: 0 auto;
+  }
+  .top-nav {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:950px) {
+  .wrapper {
+    width: 95%;
+  }
+  .works-nav a {
+    padding: 10px 2%;
+  }
+  .works-images img {
+    width: 90%;
+  }
+  .post-box {
+    width: 80%;
+  }
+  footer nav,
+  footer p {
+    float: none;
+    margin: 0 auto;
+  }
+  footer nav {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width:800px) {
+  .feat {
+    width: 90%;
+  }
+  .teammates {
+    width: 65%;
+  }
+}
+
+@media (max-width:791px) {
+  .top-layout img,
+  .bottom-layout img {
+    float: none;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  .top-layout {
+    height: auto;
+    padding: 15px 0;
+  }
+  input,
+  textarea {
+    width: 75%;
+  }
+  .top-nav a {
+    padding: 0 10px;
+  }
 }
